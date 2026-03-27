@@ -322,7 +322,7 @@ polarization = 1.0  →  profil peu polarisé   →  mesure ≈ 0
 
 ## Bugs corrigés
 
-Quatre problèmes ont été identifiés et corrigés dans la version finale :
+Quatre problèmes ont été identifiés et doivent etre corrigé dans la version finale :
 
 | # | Sévérité | Localisation | Description |
 |---|----------|-------------|-------------|
