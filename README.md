@@ -12,8 +12,7 @@
 5. [Partie 2 — Mesure de polarisation φ²](#partie-2--mesure-de-polarisation-φ²)
 6. [Partie 3 — Distances et mesures φ_dH / φ_dS](#partie-3--distances-et-mesures-φ_dh--φ_ds)
 7. [Résultats et interprétation](#résultats-et-interprétation)
-8. [Bugs corrigés](#bugs-corrigés)
-9. [Auteurs](#auteurs)
+8. [Auteurs](#auteurs)
 
 ---
 
@@ -320,19 +319,11 @@ polarization = 1.0  →  profil peu polarisé   →  mesure ≈ 0
 
 ---
 
-## Bugs corrigés
 
-Quatre problèmes ont été identifiés et doivent etre corrigé dans la version finale :
-
-| # | Sévérité | Localisation | Description |
-|---|----------|-------------|-------------|
-| 1 | 🔴 Important | Cellule 2 | Docstring de `mutate_ranking_by_swaps` copiée par erreur depuis `opposite_ranking` |
-| 2 | 🟠 Moyen | Cellule 2 | Fonctions entières redéfinies à l'identique (doublon de la fin de la cellule 1) → cellule 2 à supprimer |
-| 3 | 🟠 Moyen | Fonctions d'affichage | Utilisation des variables globales `N` et `M` au lieu de `len(profil)` |
-| 4 | 🟡 Mineur | Imports Partie 3 | `rng = np.random.default_rng(42)` créé mais jamais utilisé → résultats non reproductibles |
-
----
 
 ## Auteurs
+Maria-Louiza Lahlouhi
+Lydia Nedir
+Rayane Slaim
 
 Projet réalisé dans le cadre du cours **Fondements Mathématiques de l'Aide à la Décision (FMPAD)** — 2025/2026.
